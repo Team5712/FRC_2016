@@ -2,7 +2,7 @@ package org.usfirst.frc.team5712.robot;
 
 //AUTONOMOUS FUNCTION: Drive through low bar, turn towards low goal, drive towards it, shoot
 //ball into low goal
-
+//this is an edit
 import com.kauailabs.navx.frc.AHRS;
 import com.ni.vision.NIVision;
 import com.ni.vision.NIVision.Image;
@@ -117,7 +117,7 @@ Relay flashLightRelay = new Relay(FLASHLIGHT_RELAY, Relay.Direction.kForward);
 
 		serial_port = new SerialPort(57600, SerialPort.Port.kMXP);
 		byte update_rate_hz = 50;
-
+//hello world
 		gyro = new AHRS(SerialPort.Port.kMXP);
 		gyro.resetDisplacement();
 
